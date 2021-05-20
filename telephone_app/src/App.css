@@ -1,5 +1,32 @@
-.App {
+/*
+================FONTS=============
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+body {
+  /* background-color: hotpink; */
+  background-image: url("img/pink-leather.jpeg");
+  background-position: center;
+}
+
+h1 {
+  color: yellow;
   text-align: center;
+  max-width: inherit;
+  background-color: black;
+}
+
+
+
+
+/* .App {
+  text-align: center;
+  background-color: hotpink;
+  text: black;
 }
 
 .App-logo {
@@ -35,4 +62,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
