@@ -17,11 +17,33 @@ h1 {
   color: yellow;
   text-align: center;
   max-width: inherit;
-  background-color: black;
+  font-family: 'Bebas Neue', cursive;
+  /* background-color: black; */
 }
 
+div {
+  border: 1px solid orange;
+}
 
+.main-container {
+  background-color: purple;
+  width: 400px;
+  align-items: center;
+  text-align: center;
+}
 
+.App {
+  align-items: center;
+  text-align: center;
+}
+.contacts {
+  border: 1px solid blue;
+  font-family: 'Orbitron', sans-serif;
+}
+
+span {
+
+}
 
 /* .App {
   text-align: center;
