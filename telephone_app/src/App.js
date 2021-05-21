@@ -26,7 +26,7 @@ class App extends Component {
         number:event.target.value
       })
     }
-
+// ==========ADDING NEW CONTACT========
     this.addNewContact=()=>{
 
       const newContact={
@@ -45,8 +45,10 @@ class App extends Component {
           name:"",
           number:""
       }))
-// closes addNewContact
+// ==========closes addNewContact==========
     }
+
+// ===========DELETING ENTRY=============
 
     this.toggleForm=()=>{
       this.setState(
@@ -77,7 +79,7 @@ class App extends Component {
           </div>
 
           <div className="form-group">
-            <input type="text"
+            <input type="number"
             className="form-control"
             onChange={this.numberInput}
             value={this.state.number}
