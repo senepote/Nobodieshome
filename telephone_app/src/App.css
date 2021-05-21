@@ -6,9 +6,12 @@ font-family: 'Orbitron', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
+/* ============COLORS=============
+#ff33cc
+#262626
+*/
 
 body {
-  /* background-color: hotpink; */
   background-image: url("img/pink-leather.jpeg");
   background-position: center;
 }
@@ -18,70 +21,107 @@ h1 {
   text-align: center;
   max-width: inherit;
   font-family: 'Bebas Neue', cursive;
-  /* background-color: black; */
+  font-size: 80px;
 }
 
 div {
-  border: 1px solid orange;
+  display: flex;
+  justify-content: center;
 }
 
 .main-container {
-  background-color: purple;
-  width: 400px;
-  align-items: center;
-  text-align: center;
+  margin-top: 15px;
 }
 
 .App {
-  align-items: center;
-  text-align: center;
-}
-.contacts {
-  border: 1px solid blue;
-  font-family: 'Orbitron', sans-serif;
-}
-
-span {
-
-}
-
-/* .App {
-  text-align: center;
-  background-color: hotpink;
-  text: black;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: black;
+  width: 800px;
+  height: auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 15px;
+  border: 10px solid yellow;
+}
+
+.left {
+  padding-top: 25px;
+  position: absolute;
+  left: 50px;
+  height: auto;
+  width: 100px;
+  background-color: black;
+  display: inline-block;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.right {
+  padding-top: 25px;
+  position: absolute;
+  left: 150px;
+  height: auto;
+  width: 100px;
+  background-color: black;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacts {
+  margin-top: 10px;
+  border: 5px solid #ff33cc;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
   color: white;
+  width: 600px;
+  display: inline-block;
+  text-align: center;
+  background-image: url("img/concrete.jpeg");
 }
 
-.App-link {
-  color: #61dafb;
+
+
+span {
+  background-color: #262626;
+  font-family: 'Orbitron', sans-serif;
+  padding: 10px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid yellow;
+  margin: 5px;
+  font-style: bold;
+  font-size: 30px;
+}
+input {
+    text-align: center;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+button {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Orbitron', sans-serif;
+  background-color: #ff33cc;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.form,.form-group {
+    text-align: center;
+    padding: 5px;
+
+}
+
+input.form-control {
+  margin-top: 10px;
+  padding: 8px;
+  height: 35px;
+  background-color: black;
+  font-size: 30px;
+  color: yellow;
+  font-family: 'Roboto', sans-serif;
+}

@@ -96,19 +96,39 @@ class App extends Component {
   return (
       <div className="main-container">
 
-        <div className="App">
-        <h1 className="title">Phone Book</h1>
-        <span style={{
-          cursor:"pointer",
-          color:"hotpink"
-          }}
-          onClick={this.toggleForm}>Add a New Contact</span>
+      <div className="sideBar">
+      <div className="left">
+        <h1 className="title">P</h1>
+        <h1 className="title">H</h1>
+        <h1 className="title">O</h1>
+        <h1 className="title">N</h1>
+        <h1 className="title">E</h1>
+      </div>
+
+      <div className="right">
+        <h1 className="title">B</h1>
+        <h1 className="title">O</h1>
+        <h1 className="title">O</h1>
+        <h1 className="title">K</h1>
+        <h1 className="title">.</h1>
+      </div>
+      </div>
+
+      <div className="App">
+
+      <span style={{
+        cursor:"pointer",
+        color:"#ff33cc"
+        }}
+          onClick={this.toggleForm}>Add a New Contact
+        </span>
 
           {form}
 
           {this.state.phoneBook.map(contact =>
             <div className="contacts">
               <h3>{contact.name}</h3>
+              <div></div>
               <h5>{contact.number}</h5>
             </div>
           )}
